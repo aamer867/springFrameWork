@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 public class Taco {
 
-    private String id;
+    private Long id;
     private Date createdAt=new Date();
 
     @NotNull
